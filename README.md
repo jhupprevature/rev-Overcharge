@@ -9,13 +9,15 @@ Revature Overcharge is a full-stack web application. It is a study system for Re
 ## Technologies Used
 
 Development technologies:
-* H2
-* Java
+* Git
+* H2 Database
 * Spring
 * Angular
 * AWS
     - EC2
     - S3 Bucket
+    - SonarCloud
+* Jenkins
 
 Testing technologies:
 * Log4J
@@ -30,17 +32,21 @@ Testing technologies:
 List of features ready
 * Login functionality
 * Study flashcard sets by answering flashcards and marking cards as studied
-* Create, edit, and rate flashcard sets
+* Create and rate flashcard sets
 * Timer functionality including modes and custom time
 * Objectives displayed and measured
 
 To-Do List:
-* Ranked flashcard sets on the home page.
+* Edit flashcard sets
+* Rank sorted flashcard sets on the home page
+* Admin authorization of new flashcard sets
+* Categorize and filter flashcard sets by tech stack
+* Comment or feedback system for flashcard sets
+* Answer checking for studying flashcards
 * User profile page to 
     - display and edit profile
     - display favorite flashcard set, and public stats for contributions
-* Admin authorization of new flash card sets
-* Categorize flashcard sets by tech stack
+
 
 ## Getting Started
 
