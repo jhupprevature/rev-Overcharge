@@ -1,9 +1,9 @@
 # Rev-Overcharge
-Project 3 for 210607 Reston Batch.
+Project 3 for 210607 Reston Batch 1070.
 
 ## Project Description
 
-Revature Overcharge is a full-stack web applicaiton. It is a study system for Revature employees. Users of the application will be able to create their own flashcard sets and use flashcard sets created by other users to study. When running through a flashcard set a user will be able to type an answer before viewing the answer to a flashcard, giving them the ability to compare their answer with the real one. Flashcards can be marked as studied to prevent requestioning. Flashcard sets can be rated. A timer is also provided to coordinate study and break sessions. Daily and weekly objectives are measured to award points to users.
+Revature Overcharge is a full-stack web application. It is a study system for Revature employees. Users of the application will be able to create their own flashcard sets and use flashcard sets created by other users to study. When running through a flashcard set a user will be able to type an answer before viewing the answer to a flashcard, giving them the ability to compare their answer with the real one. Flashcards can be marked as studied to prevent requestioning. Flashcard sets can be rated. A timer is also provided to coordinate study and break sessions. Daily and weekly objectives are measured to award points to users.
 
 
 ## Technologies Used
@@ -45,26 +45,10 @@ To-Do List:
 ## Getting Started
 
 > This project was developed in Spring Tool Suite 4 and Visual Studio Code.
-> This project was tested with Google Chrome version 92 and Firefox version ??
+> This project was tested with Google Chrome version 92.
 > No other environments have been tested or confirmed.
 
-* Clone this repository: `git clone `.
-* Open the Spring project in your IDE.
-* The H2 database is preconfigured
-    - If needed: to install and use H2 locally, visit `https://www.h2database.com/html/main.html`.
-    - To alter the schema, access `rev-Overcharge/rev_overcharge_sts/src/main/resources/schema.sql`.
-    - To alter the data, access `rev-Overcharge/rev_overcharge_sts/src/main/resources/database.sql`.
-* Compile and run the project to establish the Spring Tomcat server.
-    - The port is preset to `8081`
-* In your CLI, navigate to `rev-Overcharge/OverchargeNG`.
-* Install *node_modules* and run the server with:
-    - Node is assumed to be on your device
-    - `npm install`
-    - Specific pacakages may need to be manually installed:
-        * `npm install ngx-countdown` [NGX-Countdown](https://www.npmjs.com/package/ngx-countdown)
-        * `ng add @ng-bootstrap/ng-bootstrap` [Bootstrap for Angular](https://ng-bootstrap.github.io/#/home)
-    - `ng serve`
-* Open `localhost:4200` in your browser.
+See [STARTUP.md](/startup.md) for instructions on setting up this repository.
 
 ## Usage
 
