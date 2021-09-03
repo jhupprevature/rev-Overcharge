@@ -44,10 +44,6 @@ To-Do List:
 
 ## Getting Started
 
-> This project was developed in Spring Tool Suite 4 and Visual Studio Code.
-> This project was tested with Google Chrome version 92.
-> No other environments have been tested or confirmed.
-
 See [STARTUP.md](/STARTUP.md) for instructions on setting up this repository.
 
 ## Usage
